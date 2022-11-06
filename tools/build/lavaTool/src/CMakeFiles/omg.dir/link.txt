@@ -1,0 +1,2 @@
+/usr/bin/ar qc libomg.a  CMakeFiles/omg.dir/omg.cpp.o
+/usr/bin/ranlib libomg.a

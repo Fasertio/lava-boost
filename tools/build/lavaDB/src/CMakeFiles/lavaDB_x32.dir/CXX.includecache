@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/user/Scrivania/lava/tools/lavaDB/src/lavaDB.cpp
+cstdint
+-
+fstream
+-
+map
+-
+string
+-
+tuple
+-
+vector
+-
+algorithm
+-
+

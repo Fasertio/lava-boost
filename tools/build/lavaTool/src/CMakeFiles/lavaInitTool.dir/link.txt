@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic -m32 -flto -fuse-ld=gold CMakeFiles/lavaInitTool.dir/lavaInitTool.cpp.o  -o lavaInitTool  -lclangAST -lclangASTMatchers -lclangBasic -lclangFrontend -lclangLex -lclangToolingCore -lclangTooling -lLLVMSupport 

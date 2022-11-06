@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic -flto -fuse-ld=gold CMakeFiles/fbi.dir/find_bug_inj.cpp.o  -o fbi  libfbilib.a ../../lavaDB/src/liblavaDB_x64.a ../../lavaODB/src/liblava-odb_x64.a -lprotobuf-c -lz -lodb -lodb-pgsql -ljsoncpp -lpq -lprotobuf ../../../fbi/src/../../../panda/panda/build/i386-softmmu/plog.pb.o ../../../fbi/src/../../../panda/panda/build/i386-softmmu/plog.pb-c.o 

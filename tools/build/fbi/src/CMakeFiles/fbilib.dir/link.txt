@@ -1,0 +1,2 @@
+/usr/bin/ar qc libfbilib.a  CMakeFiles/fbilib.dir/home/user/Scrivania/lava/panda/panda/panda/src/plog.c.o CMakeFiles/fbilib.dir/home/user/Scrivania/lava/panda/panda/panda/src/plog-cc.cpp.o
+/usr/bin/ranlib libfbilib.a

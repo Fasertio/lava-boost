@@ -1,0 +1,7 @@
+subprocess32
+psycopg2
+sqlalchemy
+pexpect
+psutil
+lockfile
+

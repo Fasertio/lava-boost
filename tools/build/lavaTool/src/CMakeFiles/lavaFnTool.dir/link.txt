@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic -m32 -flto -fuse-ld=gold CMakeFiles/lavaFnTool.dir/lavaFnTool.cpp.o  -o lavaFnTool  ../../lavaDB/src/liblavaDB_x32.a libomg.a -lodb -lodb-pgsql ../../lavaODB/src/liblava-odb_x32.a -lclangAST -lclangASTMatchers -lclangBasic -lclangFrontend -lclangLex -lclangToolingCore -lclangTooling -lLLVMSupport -lodb -lodb-pgsql 

@@ -1,0 +1,28 @@
+{
+    "qemu": "$PANDA_BUILD_DIR/i386-softmmu/qemu-system-i386",
+    "qcow": "$QCOW",
+    "snapshot": "root",
+
+    "directory": "$DIRECTORY",
+    "name": "$NAME",
+    "tarfile": "$TAR_FILE",
+
+    "_configure_comment": "Running configure, clean, make and then make install must put binaries in build_path/lava-install/ Make sure you don't set an rpath",
+    "configure": "./configure --prefix=`pwd`/lava-install --disable-rpath",
+    "make": "$MAKE",
+    "clean": "make clean",
+    "install": "make install",
+    "command": "$CMD",
+    "expect_prompt": "root@debian-i386:~#",
+
+    "db": "$DB_NAME",
+
+    "max_liveness": 10,
+    "max_cardinality": 10000,
+    "max_tcn": 10,
+    "max_lval_size": 100,
+
+    "main_file": [ "$MAIN_FILE" ],
+
+    "inputs": [ "$INPUT" ]
+}

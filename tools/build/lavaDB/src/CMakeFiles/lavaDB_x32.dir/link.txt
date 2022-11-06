@@ -1,0 +1,2 @@
+/usr/bin/ar qc liblavaDB_x32.a  CMakeFiles/lavaDB_x32.dir/lavaDB.cpp.o
+/usr/bin/ranlib liblavaDB_x32.a

@@ -1,0 +1,2 @@
+/usr/bin/ar qc liblava-odb_x64.a  CMakeFiles/lava-odb_x64.dir/__/generated/lava-odb.cxx.o
+/usr/bin/ranlib liblava-odb_x64.a
