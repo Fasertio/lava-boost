@@ -1,4 +1,8 @@
-# LAVA: Large Scale Automated Vulnerability Addition
+# LAVA: Large Scale Automated Vulnerability Addition - Boost
+
+Upgrade for the LAVA tool, including ARM architecture support, Use After Free and Heap Overflow vulnerabilities. In addition, Python is ported to the version 3 and the Ubuntu machine is ported to 21.04.
+
+## What is LAVA?
 
 Evaluating and improving bug-finding tools is currently difficult due to
 a shortage of ground truth corpora (i.e., software that has known bugs
@@ -17,12 +21,7 @@ NYU, and Northeastern University.
 
 # Quick Start
 
-On a system running Ubuntu 16.04, with the appropriate dependencies installed
-(see [docs/setup.md](docs/setup.md) for details), you should be able to just 
-run `python2 setup.py`. Note that this install script will install packages
-and make changes to your system. Once it finishes, you should have
-[PANDA](https://github.com/panda-re/panda) installed into `panda/build/`
-(PANDA is used to perform dynamic taint analysis).
+Clone the repo on a Ubuntu 21.04 machine then run `python3 setup.py`
 
 Next, run `init-host.py` to generate a `host.json`.
 This file is used by LAVA to store settings specific
