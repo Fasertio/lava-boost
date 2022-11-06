@@ -51,7 +51,7 @@ Check out the [docs](docs/) folder to get started.
 
 
 # Current Status
-## Version 2.0.0
+## Version 3.0.0
 
 Expected results from test suite:
 ```
@@ -66,7 +66,6 @@ grep          PASS     PASS     PASS     PASS     PASS     FAIL
 libjpeg       PASS     PASS     PASS     PASS     FAIL
 tinyexpr      PASS     PASS     PASS     PASS     FAIL
 duktape       PASS     PASS     PASS     FAIL
-tweetNaCl     PASS     PASS     FAIL
 gzip          FAIL
 ```
 
@@ -89,3 +88,8 @@ partial (alphabetical) list of contributors is below:
 * Rahul Sridhar
 * Frederick Ulrich
 * Ryan Whelan
+
+The Boost LAVA is created by:
+
+* Daniel Simonini
+* Luca Ruggeri
