@@ -1,4 +1,4 @@
-![alt text](https://github.com/Fasertio/lava-boost/blob/master/lava_boost.png?raw=true)
+<img src="https://github.com/Fasertio/lava-boost/blob/master/lava_boost.png" width=50% height=50%>
 
 # LAVA: Large Scale Automated Vulnerability Addition - Boost
 
