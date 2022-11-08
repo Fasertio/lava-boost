@@ -1,6 +1,6 @@
 <img src="https://github.com/Fasertio/lava-boost/blob/master/lava_boost.png" width=50% height=50%>
 
-# LAVA: Large Scale Automated Vulnerability Addition - Boost
+# LAVA Boost: Large Scale Automated Vulnerability Addition with steroids
 
 Upgrade for the LAVA tool, including ARM architecture support, Use After Free and Heap Overflow vulnerabilities. In addition, Python is ported to the version 3 and the Ubuntu machine is ported to 21.04.
 
